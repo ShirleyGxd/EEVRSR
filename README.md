@@ -22,7 +22,7 @@ Existing video rain streaks removal methods utilize various manual models to rep
 ## Model
 The trained models are stored in final_model.
 1. The EEVRSR_all stores the trained model of the whole EEVRSR net. 
-2. The EEVRSR_derain_only stores the model of only the derain sub-net. 
+2. The EEVRSR_derain_only stores the model of only the de-raining sub-net. 
 
 ## Data
 Some testing data is stored in the test_data.
