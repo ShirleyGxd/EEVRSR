@@ -15,7 +15,7 @@ Existing video rain streaks removal methods utilize various manual models to rep
 <div align=center><img src="https://github.com/ShirleyGxd/EEVRSR/blob/master/images%20of%20network%20structure/de-raining%20sub-net.gif" width="500" alt=""/></div>
 
 
-## Prerequisites
+## Preparation
 1. python 3.6
 2. cuda8.0 + cudnn5.0 + tensorflow 1.2.1
 
