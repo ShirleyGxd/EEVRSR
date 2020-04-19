@@ -11,11 +11,8 @@ Existing video rain streaks removal methods utilize various manual models to rep
 
 **Network architecture of motion compensation sub-net:**
 
-<img src="https://github.com/ShirleyGxd/EEVRSR/blob/master/images%20of%20network%20structure/motion%20compensation%20sub-net.gif" width="400" alt=""/>
-
-**Network architecture of de-raining sub-net:**
-
-<img src="https://github.com/ShirleyGxd/EEVRSR/blob/master/images%20of%20network%20structure/de-raining%20sub-net.gif" width="400" alt=""/>
+<div align=left><img src="https://github.com/ShirleyGxd/EEVRSR/blob/master/images%20of%20network%20structure/motion%20compensation%20sub-net.gif" width="400" alt=""/></div>
+<div align=right><img src="https://github.com/ShirleyGxd/EEVRSR/blob/master/images%20of%20network%20structure/de-raining%20sub-net.gif" width="400" alt=""/></div>
 
 
 ## Prerequisites
