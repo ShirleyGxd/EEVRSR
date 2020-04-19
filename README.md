@@ -12,20 +12,20 @@ Existing video rain streaks removal methods utilize various manual models to rep
 
 ## Testing
 1. Clone this repo.
-2. Open the **test_code** and run **test_main.py**.
+2. Open the **/test_code/** and run **test_main.py**.
 3. The derained result will be stored in the /test_code/EEVRSR_result/.
 
 >**Optional:**
->* You can choose the testing data by setting the value of the variable **video_index**.
->* You can choose to use the whole EEVRSR net or only the de-raining sub-net by setting the value of the variable **net_derain_only_flag**.
+>* You can choose the testing data by setting the value of the variable **video_index** in test_main.py.
+>* You can choose to use the whole EEVRSR net or only the de-raining sub-net by setting the value of the variable **net_derain_only_flag** in test_main.py.
 
 ## Model
-The trained models are stored in final_model.
-1. The EEVRSR_all stores the trained model of the whole EEVRSR net. 
-2. The EEVRSR_derain_only stores the model of only the de-raining sub-net. 
+The trained models are stored in /final_model/.
+1. The /final_model/EEVRSR_all/ stores the trained model of the whole EEVRSR net. 
+2. The /final_model/EEVRSR_derain_only/ stores the model of only the de-raining sub-net. 
 
 ## Data
-Some testing data is stored in the test_data.
+Some testing data is stored in the /test_data/.
 
 
 
