@@ -7,21 +7,21 @@ Existing video rain streaks removal methods utilize various manual models to rep
 
 
 ## Prerequisites
->1. python 3.6
->2. cuda8.0 + cudnn5.0 + tensorflow 1.2.1
+1. python 3.6
+2. cuda8.0 + cudnn5.0 + tensorflow 1.2.1
 
 ## Testing
->1. Clone this repo.
->2. Open the **test_code** and run **test_main.py**.
->3. The derained result will be stored in the /test_code/EEVRSR_result/.
-### Optional
->1) You can choose the testing data by set the value of the variable **video_index**.
->2) You can choose to use the whole EEVRSR net or only the de-raining sub-net by setting the value of the variable **net_derain_only_flag**.
+1. Clone this repo.
+2. Open the **test_code** and run **test_main.py**.
+3. The derained result will be stored in the /test_code/EEVRSR_result/.
+**Optional:**
+1) You can choose the testing data by set the value of the variable **video_index**.
+2) You can choose to use the whole EEVRSR net or only the de-raining sub-net by setting the value of the variable **net_derain_only_flag**.
 
 ## Model
 The trained models are stored in final_model.
->1. The EEVRSR_all stores the trained model of the whole EEVRSR net. 
->2. The EEVRSR_derain_only stores the model of only the derain sub-net. 
+1. The EEVRSR_all stores the trained model of the whole EEVRSR net. 
+2. The EEVRSR_derain_only stores the model of only the derain sub-net. 
 
 ## Data
 Some testing data is stored in the test_data.
