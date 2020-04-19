@@ -16,7 +16,9 @@ Existing video rain streaks removal methods utilize various manual models to rep
 3. The derained result will be stored in the /test_code/EEVRSR_result/.
 
 **Optional:**
+
 You can choose the testing data by set the value of the variable **video_index**.
+
 You can choose to use the whole EEVRSR net or only the de-raining sub-net by setting the value of the variable **net_derain_only_flag**.
 
 ## Model
